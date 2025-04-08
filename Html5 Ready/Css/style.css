@@ -1,0 +1,314 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+/* Utility class */
+
+:root{
+    --primary—text—color: #0b6bc4;
+    --secondary—text—color: #209def;
+    --accent—color: #0a2540;
+    --bg: #d9d9d9;
+    --orange: #ff7902;
+    --light:#e7f0f9;
+    --light2:#f0f0f0;
+    --secondary: #ff7903 ;
+    --primary: #0a6bc4;
+    --primary-light: #219dee;
+    --primary-dark: #0a2540;
+    --white: #FFF;
+    --black: #121212;
+    --gray: #d9d9d9;
+    --gray-dark: #9d9d9d;
+    --gray-light: #f0f0f0;
+    --bg-light: #e7f0f9;
+    --bg-footer: #160120;
+    --text-footer: #8a6a9b;
+
+    
+} 
+
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    color: #0A2540;
+}
+
+.primary-button{
+    border: 1px solid #fff !important;
+    padding: 10px 25px;
+    border-radius: 3px;
+    text-align: center;
+    align-items: center;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    justify-content: space-between;
+    transition: 0.3s all ease-in-out;
+    
+}
+
+
+
+
+
+.primary-button:hover{
+    background-color: #ffffff;
+    color: #000000 !important;
+    
+}
+
+
+
+
+.secondary-button{
+    background-color: #fff;
+    padding: 2px 15px  !important;
+    border-radius: 3px;
+    text-align: center;
+    align-items: center;
+    color: #000000;
+    border: none;
+    margin-top: -2px;
+    justify-content: space-between;
+    transition: 0.3s all ease-in-out;
+    
+}
+
+
+.secondary-button:hover{
+    background-color: transparent;
+    
+    border-radius: 3px;
+    border: 1px solid #fff;
+    
+    color: #ffffff;
+    
+}
+
+
+
+
+h1{
+    font-size: 48px;
+    font-size: 700;
+    color: #fff;
+    
+    
+}
+
+
+h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 600;
+     
+}
+
+p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+h3{
+    font-size: 16px;
+    
+}
+
+
+h4{
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #ff7902;
+    font-weight: 700;
+    
+}
+
+h5{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+
+
+h6{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+a{
+    text-transform: none;
+}
+a:hover{
+    color: var(--primary—text—color);
+}
+
+/* hero */
+
+.hero{
+    background-image: url(../images/business-man-using-laptop-talking-phone-outdoor-nyc-american-business-success-remote-freelance-online-work-online-business-outside-business-mature-serious-freelancer-using-phone_265223-150.jpg.png);
+
+    height: 900px;
+    background-repeat: no-repeat;
+}
+
+
+/* about */
+
+.first-one img{
+    width: 10%;
+}
+
+.icon{
+    background-color: #0a6ac411;
+}
+
+.smhd{
+    background-color: #0b6bc4;
+    color: #fff;
+    width: 50%;
+    text-align: center;
+}
+.about{
+    background-color: #0A2540;
+    border-radius: 5px;
+    padding: 10px 12px;
+    text-align: center;
+}
+
+.about:hover{
+    background-color: #9eceff !important;
+    color: #000000;
+}
+
+
+/* profile */
+
+.adndar-img{
+    margin-top: -50px;
+}
+.adndar-img img{
+
+    border-radius: 12px;
+}
+.prof-text{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    color: #fff;
+    
+}
+
+.prof-text h2{
+    margin-bottom: 50px;
+}
+
+.pb-contain span{
+    margin-right: 10px;
+}
+
+.p-imgbox img{
+    width: 100%;
+}
+
+.practice-box{
+    border-radius: 12px;
+}
+.practice-box p{
+    font-size: 14px;
+}
+.practice-box h3{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.service{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* blog */
+
+.bg-cards{
+    padding: 23px;
+    
+    background-color: #fff;
+    border-radius: 12px;
+    
+}
+
+.bg-cards img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+
+/* footer */
+
+.ftr{
+    background-color: #054f7d;
+}
+
+.ftr-link a{
+    color: #fff;
+    text-transform: none;
+    text-decoration: none;
+    padding-inline: 0 40px;
+}
+
+.ftr-link a:hover{
+    color: #4c94e7;
+    text-decoration: underline;
+}
+
+.social-link{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    
+}
+
+.social-link i{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #054f7d;
+    height: 40px;
+    width: 40px;
+    align-items: center !important;
+    text-align: center !important;
+    
+    padding: 15px 16px;
+}
+
+
+.search{
+    cursor: pointer;
+}
+
+.search:hover{
+    border: 1px solid #054f7d;
+    padding: 10px 13px;
+    border-radius: 10px;
+}
